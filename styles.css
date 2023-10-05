@@ -1,0 +1,38 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f0f0f0; /* Cor de fundo do corpo da página */
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+h1 {
+    font-size: 24px;
+    margin-top: 20px;
+}
+
+.quadro {
+    display: inline-block;
+    width: 30%;
+    margin: 10px;
+    padding: 20px;
+    background-color: #8a63a3; /* Cor de fundo roxo claro */
+    border: 1px solid #8a63a3; /* Cor da borda igual à cor de fundo para bordas circulares */
+    border-radius: 10px; /* Borda circular com raio de 10px */
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    text-align: left;
+    color: white; /* Cor das letras branca */
+}
+
+.subtitulo {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.texto {
+    font-size: 16px;
+}
